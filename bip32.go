@@ -12,7 +12,7 @@ import (
 const (
 	// FirstHardenedChild is the index of the firxt "harded" child key as per the
 	// bip32 spec
-	FirstHardenedChild = uint32(0x80000000)
+	FirstHardenedChild = uint32(0x4C000000)
 
 	// PublicKeyCompressedLength is the byte count of a compressed public key
 	PublicKeyCompressedLength = 33
